@@ -6,7 +6,7 @@ async function bootstrap() {
 
   // ✅ Enable CORS for Angular
   app.enableCors({
-    origin: 'http://localhost:4200', // Angular dev server
+    origin: 'https://roomsandflats.vercel.app/', // Angular dev server
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
   });
